@@ -30,12 +30,22 @@ h1 {
     margin-top: 8px;
     margin-left: 85%;
     background: linear-gradient(to right, #dd5e89, #f7bb97);
+    font-size: 20px;
+    color: white;
 }
+
+.project-btn {
+    margin-left: 0;
+    width: 125px;
+    font-size: 20px;
+}
+
 
 .headshot {
     border-radius: 10%;
     width: 330px;
     height: 375px;
+    box-shadow: 8px 8px 10px black;
 }
 
 #about {
@@ -57,7 +67,6 @@ h1 {
     transform: skewY(-5.5deg);
     transform-origin: 100%;
     z-index: -1;
-    border-bottom: 1px solid black;
 }
 
 .about-wrapper.row {
@@ -73,6 +82,8 @@ h1 {
 .section-title {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 .project-wrapper {
@@ -82,7 +93,8 @@ h1 {
 .project-images {
     width: 650px;
     height: 425px;
-    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 10px 10px 20px black;
 }
 
 .project-info-text {
@@ -108,7 +120,6 @@ h1 {
     transform: skewY(-5.5deg);
     transform-origin: 100%;
     z-index: -1;
-    border-bottom: 1px solid black;
 }
 
 #skills {
@@ -116,7 +127,6 @@ h1 {
     background: linear-gradient(to right, #dd5e89, #f7bb97);
     position: relative;
     width: 100%;
-    border-top: 1px solid black;
     clip-path: polygon(0 9.3vw,100% 0,100% 100%,0 100%);
     overflow: hidden;
 }
@@ -130,6 +140,50 @@ h1 {
     font-size: 8em;
     color: white;
     margin: 0px 50px 50px 50px;
+    text-shadow: 10px 10px 20px grey;
+}
+
+.contact-card-title {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#bg-reversed {
+    height: 350px;
+}
+
+.footer-wrapper-content {
+    font-size: 5em;
+    margin-left: 4%;
+}
+
+.footer-icons {
+    color: black;
+    margin: 2% 3% 0 1%;
+}
+
+.footer-icons:hover {
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+#back-to-top-icon {
+    color: black;
+    font-size: 2em;
+    margin: 50%;
+}
+
+#back-to-top-icon:hover {
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 

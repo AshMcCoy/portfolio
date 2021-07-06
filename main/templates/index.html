@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <section class="bg-card row">
+        <section class="card" id="hero">
             <img src="{% static 'img/heroBackground.jpg' %}" class="card-img img-fluid" alt="Background image">
             <div class="container-fluid card-img-overlay col">
                 <h1 class="card-title text-end">Hello, my name is <span class="card-name-font">Ashley McCoy</span></h1>
@@ -28,9 +28,9 @@
                 <a href="#about" class="btn" type="button">Know More</a>
             </div>
         </section>
-        <section id="about" class="row">
+        <section id="about">
             <div class="container">
-                <h2 class="section-title text-center text-white">About Me</h2>
+                <h2 class="section-title text-white">About Me</h2>
                 <div class="about-wrapper row">
                     <div class="col-md-6 col-sm-12">
                         <div class="about-wrapper-image">
@@ -49,19 +49,19 @@
         </section>
         <section id="projects">
             <div class="container">
-                <h2 class="section-title text-center">Projects</h2>
+                <h2 class="section-title">Projects</h2>
                 <div class="project-wrapper row">
                     <div class="col-md-6 col-sm-12">
                         <div class="project-wrapper-info">
                             <h3>Hello Beautiful Creations</h3>
                             <p class="project-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus laboriosam, nihil corrupti quod veniam nulla quo ab maxime dolores dicta obcaecati molestias doloremque iure sunt sequi alias illo nesciunt?</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta, quod nemo beatae esse nam nesciunt, asperiores ratione in, temporibus perferendis suscipit sint ex labore quaerat dolorum laudantium. Dolor, animi!</p>
-                            <button><a href="#" target="_blank" type="button">Source Code</a></button>
+                            <a href="https://github.com/AshMcCoy/hello_beautiful_creations" target="_blank" type="button" class="btn project-btn"><i class="fab fa-github"></i> Preview</a></button>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="project-wrapper-image">
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/AshMcCoy/hello_beautiful_creations" target="_blank">
                                 <img src="../static/img/hbcProfilePic.JPG" alt="Project Image" class="project-images">
                             </a>
                         </div>
@@ -73,12 +73,12 @@
                             <h3>LifeTracker App</h3>
                             <p class="project-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus laboriosam, nihil corrupti quod veniam nulla quo ab maxime dolores dicta obcaecati molestias doloremque iure sunt sequi alias illo nesciunt?</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta, quod nemo beatae esse nam nesciunt, asperiores ratione in, temporibus perferendis suscipit sint ex labore quaerat dolorum laudantium. Dolor, animi!</p>
-                            <button><a href="#" target="_blank" type="button">Source Code</a></button>
+                            <a href="https://github.com/tracyphsu/ToDoApp" target="_blank" type="button" class="btn project-btn"><i class="fab fa-github"></i> Preview</a></button>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="project-wrapper-image">
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/tracyphsu/ToDoApp" target="_blank">
                                 <img src="../static/img/ToDoAppPic.jpg" alt="Project Image" class="project-images">
                             </a>
                         </div>
@@ -88,7 +88,7 @@
         </section>
         <section id="skills">
             <div class="container">
-                <h2 class="section-title text-center text-white">Skills</h2>
+                <h2 class="section-title text-white">Skills</h2>
                 <div class="skills-wrapper row">
                     <div class="col-sm-12">
                         <div class="skills-wrapper-content">
@@ -106,9 +106,19 @@
                 </div>
             </div>
         </section>
-        <section id="">
-
-        </section>
+        <footer class="card">
+            <img src="../static/img/heroBackgroundReversed.jpg" class=" card-img img-fluid" alt="Background image" id="bg-reversed">
+            <div class="container-fluid card-img-overlay col">
+                <h2 class="section-title contact-card-title text-start">Contact</h2>
+                <div class="footer-wrapper-content">
+                    <a href="https://github.com/AshMcCoy" target="_blank"><i class="fab fa-github footer-icons"></i></a>
+                    <a href="mailto:keriashmccoy@gmail.com" target="_blank"><i class="fas fa-at footer-icons"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=17121680" target="_blank"><i class="fab fa-facebook footer-icons"></i></a>
+                    <a href="https://www.instagram.com/keriashleymccoy/" target="_blank"><i class="fab fa-instagram footer-icons"></i></a>
+                </div>
+                <a href="#hero" id="back-to-top-icon"><i class="fas fa-angle-double-up"></i></a>
+            </div>
+        </footer>
     </div>
     <!--Bootstrap Bundle with Popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
