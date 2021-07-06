@@ -1,0 +1,116 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley McCoy Portfolio</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Your custom styles-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7decf84cff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <section class="bg-card row">
+            <img src="{% static 'img/heroBackground.jpg' %}" class="card-img img-fluid" alt="Background image">
+            <div class="container-fluid card-img-overlay col">
+                <h1 class="card-title text-end">Hello, my name is <span class="card-name-font">Ashley McCoy</span></h1>
+                <p class="card-text text-end card-title-caption">FULL-STACK WEB DEVELOPER</p>
+                <a href="#about" class="btn" type="button">Know More</a>
+            </div>
+        </section>
+        <section id="about" class="row">
+            <div class="container">
+                <h2 class="section-title text-center text-white">About Me</h2>
+                <div class="about-wrapper row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper-image">
+                            <img src="{% static 'img/me1.jpg' %}" class="headshot" alt="Ashley McCoy headshot">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="margin-top: 40px;">
+                        <div class="about-wrapper-info">
+                            <p class="about-wrapper-info-text">I'm a full-stack developer out of Odessa, TX.</p>
+                            <p class="about-wrapper-info-text">I have a matchless passion creating beautiful, intuitive, and dynamic user experiences. I build end-to-end web projects from scratch with the extensive knowledge I have gained through an intense coding bootcamp.</p>
+                            <p class="about-wrapper-info-text">My life hasn't always been about coding but it has always been creative. I'm happy to put that creativity to use in the projects that I build and showcase the passion that I've developed for this particular industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title text-center">Projects</h2>
+                <div class="project-wrapper row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="project-wrapper-info">
+                            <h3>Hello Beautiful Creations</h3>
+                            <p class="project-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus laboriosam, nihil corrupti quod veniam nulla quo ab maxime dolores dicta obcaecati molestias doloremque iure sunt sequi alias illo nesciunt?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta, quod nemo beatae esse nam nesciunt, asperiores ratione in, temporibus perferendis suscipit sint ex labore quaerat dolorum laudantium. Dolor, animi!</p>
+                            <button><a href="#" target="_blank" type="button">Source Code</a></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="project-wrapper-image">
+                            <a href="#" target="_blank">
+                                <img src="../static/img/hbcProfilePic.JPG" alt="Project Image" class="project-images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-wrapper row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="project-wrapper-info">
+                            <h3>LifeTracker App</h3>
+                            <p class="project-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus laboriosam, nihil corrupti quod veniam nulla quo ab maxime dolores dicta obcaecati molestias doloremque iure sunt sequi alias illo nesciunt?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta, quod nemo beatae esse nam nesciunt, asperiores ratione in, temporibus perferendis suscipit sint ex labore quaerat dolorum laudantium. Dolor, animi!</p>
+                            <button><a href="#" target="_blank" type="button">Source Code</a></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="project-wrapper-image">
+                            <a href="#" target="_blank">
+                                <img src="../static/img/ToDoAppPic.jpg" alt="Project Image" class="project-images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title text-center text-white">Skills</h2>
+                <div class="skills-wrapper row">
+                    <div class="col-sm-12">
+                        <div class="skills-wrapper-content">
+                            <i class="fab fa-html5 skills-icons"></i>
+                            <i class="fab fa-css3-alt skills-icons"></i>
+                            <i class="fab fa-python skills-icons"></i>
+                            <i class="fab fa-js-square skills-icons"></i>
+                            <i class="fab fa-bootstrap skills-icons"></i>
+                            <i class="fab fa-mdb skills-icons"></i>
+                            <i class="fab fa-github-square skills-icons"></i>
+                            <i class="fab fa-git-alt skills-icons"></i>
+                            <i class="fab fa-sass skills-icons"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="">
+
+        </section>
+    </div>
+    <!--Bootstrap Bundle with Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+.card-title {
+    margin-top: 19%;
+    margin-right: 6%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.card-name-font {
+    font-family: 'Fuggles', cursive;
+    font-size: 110px;
+    font-weight: bold;
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-title-caption {
+    margin-right: 7%;
+    line-height: 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.btn {
+    margin-top: 8px;
+    margin-left: 85%;
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+}
+
+.headshot {
+    border-radius: 10%;
+    width: 330px;
+    height: 375px;
+}
+
+#about {
+    padding: 50px;  
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    position: relative;
+    z-index: 1;
+}
+
+#about:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+    border-bottom: 1px solid black;
+}
+
+.about-wrapper.row {
+    margin-top: 50px;
+    --bs-gutter-x: -21.5rem;
+}
+
+.about-wrapper-info {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.project-wrapper {
+    margin-top: 8%;
+}
+
+.project-images {
+    width: 650px;
+    height: 425px;
+    border: 1px solid black;
+}
+
+.project-info-text {
+    margin-top: 35px;
+}
+
+#projects {
+    margin-top: 6%;
+    padding: 50px;  
+    position: relative;
+    z-index: 1;
+}
+
+#projects:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+    border-bottom: 1px solid black;
+}
+
+#skills {
+    padding: 135px;
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    position: relative;
+    width: 100%;
+    border-top: 1px solid black;
+    clip-path: polygon(0 9.3vw,100% 0,100% 100%,0 100%);
+    overflow: hidden;
+}
+
+.skills-wrapper-content {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.skills-icons {
+    font-size: 8em;
+    color: white;
+    margin: 0px 50px 50px 50px;
+}
+
+
+
+
+
+
+
+
+
+
